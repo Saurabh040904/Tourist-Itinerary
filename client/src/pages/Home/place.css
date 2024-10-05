@@ -1,0 +1,57 @@
+/* Place.css */
+
+.place-container {
+    max-width: 800px; /* Set a maximum width for the content */
+    margin: 20px auto; /* Center the content with some margin */
+    padding: 20px; /* Add padding for inner spacing */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.place-container h1 {
+    font-size: 2rem; /* Larger font size for the title */
+    margin-bottom: 10px; /* Space below the title */
+    color: #333; /* Dark color for the title */
+}
+
+.place-container p {
+    font-size: 1rem; /* Regular font size for paragraphs */
+    line-height: 1.5; /* Increased line height for readability */
+    color: #555; /* Slightly lighter color for text */
+    margin-bottom: 10px; /* Space between paragraphs */
+}
+
+.place-container h2 {
+    font-size: 1.5rem; /* Font size for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+    color: #333; /* Dark color for subheadings */
+}
+
+.place-container ul {
+    list-style-type: disc; /* Use disc bullets for the list */
+    padding-left: 20px; /* Add padding for the list */
+}
+
+.place-container li {
+    font-size: 1rem; /* Regular font size for list items */
+    color: #555; /* Color for list items */
+    margin-bottom: 5px; /* Space between list items */
+}
+
+/* Add this to place.css */
+.back-link {
+    margin-top: 20px; /* Space above the link */
+    padding: 10px 15px; /* Padding inside the link */
+    font-size: 1rem; /* Font size */
+    color: white; /* Text color */
+    background-color: #007bff; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the link behave like a button */
+    transition: background-color 0.3s; /* Transition for background color */
+}
+
+.back-link:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
